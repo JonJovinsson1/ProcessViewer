@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Test + tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store
+
+# Build + release artifacts (the .dmg goes to GitHub Releases, not the repo)
+dist/
+build/
+
+# Derived from marketing_screenshot.svg via qlmanage
+marketing_screenshot.svg.png
+
+# Local / unrelated
+live_report.md
+
+# Local demo-loop scripts used when regenerating marketing_screenshot.svg.
+# Kept out of the repo so users don't see unrelated helpers at the root.
+demo_scripts/
